@@ -123,45 +123,47 @@
 
 .clase4_2{
     width:100%;
-    height: auto;
+    height: 40em;
 }
 
 .clase4_3{
     width: 100%;
-    height: auto;
-    background-color: blue;
-
+    height: 20em;
 }
 
+.clase6{
+    position: relative;
+    margin-top: -20px;
+    background-color:rgba(187, 184, 184, 0.212);
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
 
 .clase5{
     position: relative;
-    background-color:whitesmoke;
+    background-color:rgba(187, 184, 184, 0.212);
     display: inline-flex;
     width: 100%;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    margin-top: -40px;
 }
 
 .clase5_1{
-    width:33.33%;
-    height:auto;
+    width:25%;
     display:flex;
     flex-direction: column;
+    margin-left: 25%;
 }
 
 .clase5_2{
-    width:100%;
-    height: auto;
+    width:25%;
+    height: 100em;
+    display:flex;
+    flex-direction: column;
+    margin-right: 25%;
 }
-
-.clase5_3{
-    width: 100%;
-    height: auto;
-    background-color: blue;
-}
-
 .footer{
     position: relative;
     background-color: silver;
@@ -179,22 +181,43 @@
 }
 .footer2{
     width: 50%;
-    vertical-align:middle;
-    text-align: center;
     display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer3{
     width: 30%;
     vertical-align:middle;
     text-align: center;
-    background-color: darkgoldenrod;
+    color: black;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+.footer4{
+    width: 80px;
+    height: 80px;
+    margin-left: 20%;
+    
 }
 
 .iconos{
-    position: relative;
     width: 50px;
     height: 50px;
-    padding-left: 10%;
     background-color:silver;
-
+    margin-left: 15px;
+    margin-top: 15px;
 }
+
+#iconofb:hover{
+    background-color: blue;
+}
+
+#iconoinst:hover{
+    background-color:#ce32b9;
+}
+
+#iconolink:hover{
+    background-color: lightblue;
+}
+
